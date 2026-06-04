@@ -3,25 +3,96 @@
     <head>
         <title>golden shop's website</title>
         <meta charset="utf-8">
+        <style>
+            body {
+                font-weight: bold;
+            }
+            h1 {
+                color: rgb(255, 255, 255);
+                background-color: rgb(255, 0, 81);
+                font-family: monospace;
+                font-weight: bold;
+            }
+            h2 {
+                color: rgb(17, 128, 30);
+                font-family: monospace;
+                font-weight: bold;
+            }
+            h3 {
+                color: rgb(74, 5, 5);
+                background-color: rgb(144, 240, 216);
+                font-weight: bold;
+            }
+            h4 {
+                color: rgb(250, 0, 0);
+            }
+            #wel-gold {
+                color: rgb(255, 0, 0);
+            }
+            #about {
+                color: rgb(17, 0, 250);
+            }
+            #pic {
+                border: 6px ridge green;
+            }
+            #dic {
+                background-color: rgb(242, 225, 242);
+                width: 70%;
+                height: 160px;
+                overflow-y: auto;
+                overflow-x: hidden;
+                margin: 15px 0px 10px 6px;
+                border-top: 10px solid red;
+                padding: 15px;
+            }
+            #last {
+                color: rgb(37, 125, 24);
+            }
+            #container {
+                width: 440px;
+                height: 100px;
+                margin-left: 20px;
+                border-top: 10px solid purple;
+                padding: 15px;
+            }
+            
+          
+         
+        </style>
+       
     </head>
+     <div id="container">
     <body>
         <h1>Golden shop's website</h1>
-        <h2>Items we have in our shop.</h2>
+        <h2 id="wel-gold">Welcome to Golden shop</h2>
+    
+        <h2 id="about">About us!</h2>
+        
+        <p><em>Golden shop</em> sells quality cosmatics and<br> electronics at affordable prices.</p>
+        <div id="dic"><h2>Our products</h2>
+        <h3>Cosmatics</h3>
         <ul>
-            <li>Cosmatics</li>
-            <li>Electronics</li>
+            <li>Face Cream</li>
+            <li>perfume</li>
+        </ul>
+        
+        <h3>Electronics</h3>
+        <ul>
+            <li>Earphones</li>
+            <li>Phone Charger</li>
         </ul>
 
-        <p>To get more information about the shop and where it locates.<br> Check below! The owner of the shop is Omar Abdi Ali. </p>
-        <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/beach-in-hawaii.png" width="203">
-        <h3>More infor!</h3>
-        <ol>
-            <li>whatsapp no: +254704384825
-            <li>Facebook: Omar Abdi Ali
-            <li>instegram: OmarAli104
-        </ol>
+        <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/beach-in-hawaii.png" width="203" id="pic">
+        <h4>More infor!</h4>
+        <p>phone: <button>+254704384825</button></p>
+        <p>WhatsApp: <button>+254704384825</button></p>
+        </div>
+      
+        <p id="last">Thank you, Welcome with open hands and heart!</p>
+   
   
  
         
     </body>
+    </div>
 </html>
